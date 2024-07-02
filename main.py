@@ -1,6 +1,6 @@
 import statistics
 
-Uinput = input().split() #written first to turn input into list
+Uinput = input('Please enter your input(s): ').split() #written first to turn input into list
 my_list = []
 
 for num in Uinput:
