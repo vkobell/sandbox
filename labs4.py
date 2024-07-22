@@ -1,7 +1,7 @@
 class Car:
     def __init__(self):
         self.model_year = 0
-        self.purchase_price = 0  # TODO: Declare purchase_price attribute //1
+        self.purchase_price = 0  #TODO: Declare purchase_price attribute //1
         self.current_value = 0
 
     def calc_current_value(self, current_year):
@@ -14,7 +14,7 @@ class Car:
         print(f"Car's information:")
         print(f"  Model year: {self.model_year}")
         print(f"  Purchase price: ${self.purchase_price}")
-        print(f"  Current value: ${self.current_value}") # TODO: Define print_info() method to output model_year, purchase_price, and current_value
+        print(f"  Current value: ${self.current_value}") #TODO: Define print_info() method to output model_year, purchase_price, and current_value //2
 
 
 if __name__ == "__main__":    
