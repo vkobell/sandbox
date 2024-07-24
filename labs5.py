@@ -1,5 +1,5 @@
 class FoodItem:
-    def __init__(self, name="Water", fat=0.0, carbs=0.0, protein=0.0):
+    def __init__(self, name="Water", fat=0.0, carbs=0.0, protein=0.0): #note that "Water" defaults macros to zero
         self.name = name 
         self.fat = fat
         self.carbs = carbs
