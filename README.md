@@ -4,3 +4,4 @@
 * Labs 3 - Created to gather inputs and a range and output only the inputs in written range
 * Labs 4 - Created to gather inputs and output formatted car information. Note: Only wrote a few lines
 * Labs 5 - Created to gather inputs and output the name of food and its macros in a format. Note: Only wrote a few lines
+* Labs 6 - Created to gather inputs and output the formatted artist's name, dob, dod, and artistic titles and its release dates with a few conditions. Note: Only wrote a few lines
