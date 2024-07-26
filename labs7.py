@@ -11,7 +11,7 @@ class Triangle:
         self.height = user_height
    
     def get_area(self):
-           # TODO: Get are from base and height
+        area = 0.5 * self.base * self.height#Get area from base and height
         return area
    
     def print_info(self):
@@ -23,13 +23,17 @@ if __name__ == "__main__":
     triangle1 = Triangle()
     triangle2 = Triangle()
 
-    # TODO: Read and set base and height for triangle1 (use set_base() and set_height())
+    triangle1.set_base(float(input()))
+    triangle1.set_height(float(input())) #todo:Read and set base and height for triangle1 (use set_base() and set_height())
       
-    # TODO: Read and set base and height for triangle2 (use set_base() and set_height())
+    triangle2.set_base(float(input()))
+    triangle2.set_height(float(input())) #todo:Read and set base and height for triangle2 (use set_base() and set_height())
     
       
     print('Triangle with smaller area:')  
     
-    # TODO: Determine smaller triangle (use get_area())
-    #       and output smaller triangle's info (use print_info())
+    if triangle1.get_area() < triangle2.get_area():
+        triangle1.print_info()
+    else:
+        triangle2.print_info() #todo:Determine smaller triangle (use get_area()) and output smaller triangle's info (use print_info())
 
