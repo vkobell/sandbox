@@ -6,4 +6,5 @@
 * Labs 5 - Created to gather inputs and output the name of food and its macros in a format. Note: Only wrote a few lines
 * Labs 6 - Created to gather inputs and output the formatted artist's name, dob, dod, and artistic titles and its release dates with a few conditions. Note: Only wrote a few lines
 * Labs 7 - Created to gather inputs (triangle 1 and triangle 2) and gather two numbers (base and height) to spit out which triangle has the smallest area. Note: Only wrote a few lines
-* Labs 8 - Created to gather the user's age and output their fat burning heart rate. The conditions will be: User must be 18 and older but cannot be 76 or older. Note: Only wrote a few lines
+* Labs 8 - Created to gather the user's age and output their fat burning heart rate. The conditions will be: User must be 18 and older but cannot be 76 or older. Note: Only wrote a few li
+* Labs 9 - Created to gather a single input and output the corresponding name. The conditions will be if the number is less than -10 or greater than 10 it will hit the exception code.
