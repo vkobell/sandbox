@@ -4,5 +4,23 @@
 #Output the first element in the list if the invalid index is negative or the last element if the invalid index is positive.
 names = ['Ryley', 'Edan', 'Reagan', 'Henry', 'Caius', 'Jane', 'Guto', 'Sonya', 'Tyrese', 'Johnny']
 index = int(input())
+msg = ""
 
-# Type your code here.
+try:
+    if index >= 0 and index < len(names):
+        msg = "Name: " + names[index]
+    else:
+        raise 
+
+except:
+    #msg = "You hit the except"
+    if index > len(names) - 1:
+        msg = "Exception! list index out of range\nThe closest name is: " + names[9]
+    elif index < 0 and index >- len(names):
+        msg = "Name: " + names[len(names) + index]
+    elif index < -9:
+       msg = "Exception! list index out of range\nThe closest name is: " + names[0]
+
+print(msg)
+
+
