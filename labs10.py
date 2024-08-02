@@ -6,7 +6,7 @@
 # Define your method here
 def steps_to_miles(steps):
     if steps < 0:
-        raise #something
+        raise #something failure
 if __name__ == '__main__':
     str = ()
     #type your code here
