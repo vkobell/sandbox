@@ -1,13 +1,13 @@
 11.7 Standard Library
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|Module name	                              Description	                                                            Documentation link                                   |
-|datetime	                              Creation and editing of dates and times objects	                        https://docs.python.org/3/library/datetime.html          |
+|Module name	                              Description	                                                            Documentation link                                  |
+|datetime	                              Creation and editing of dates and times objects	                        https://docs.python.org/3/library/datetime.html         |
 |random	                                      Functions for working with random numbers	                                https://docs.python.org/3/library/random.html           |
 |copy	                                      Create complete copies of objects	                                        https://docs.python.org/3/library/copy.html             |
 |time	                                      Get the current time, convert time zones, sleep for a number of seconds	https://docs.python.org/3/library/time.html             |
 |math	                                      Mathematical functions	                                                https://docs.python.org/3/library/math.html             |
 |os	                                      Operating system informational and management helpers	                https://docs.python.org/3/library/os.html               |
-|sys	                                      System specific environment or configuration helpers	                https://docs.python.org/3/library/sys.html               |
+|sys	                                      System specific environment or configuration helpers	                https://docs.python.org/3/library/sys.html              |
 |pdb	                                      The Python interactive debugger	                                        https://docs.python.org/3/library/pdb.html              |
-|urllib	                                      URL handling functions, such as requesting web pages	                https://docs.python.org/3/library/urllib.html            |
+|urllib	                                      URL handling functions, such as requesting web pages	                https://docs.python.org/3/library/urllib.html           |
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
