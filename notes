@@ -11,3 +11,11 @@
 |pdb	                                      The Python interactive debugger	                                        https://docs.python.org/3/library/pdb.html              |
 |urllib	                                      URL handling functions, such as requesting web pages	                https://docs.python.org/3/library/urllib.html           |
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Terms:
+1. Dependency - A module being required by another program is often called a dependency.
+2. Script - A script is the file being executed by the interpretor, which may import other files as modules
+
+
+Module Notes:
+1. A modules filename should always end with ".py"
