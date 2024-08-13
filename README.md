@@ -10,3 +10,6 @@
 * Labs 9 - Created to gather a single input and output the corresponding name. The conditions will be if the number is less than -10 or greater than 10 it will hit the exception code.
 * Labs 10_oop - Git version created to gather a single input (steps) and output how many miles the steps would be.
 * Labs 10_noneoop - SL version created to gather a single input (steps) and output how many miles the steps would be. Is also supposed to catch the Value Error.
+* Labs 11 - Created to gather inputs and output the formatted artist's name, dob, dod, and artistic titles and its release dates with a few conditions. Note: This time it's using more advanced code.
+* Labs 12 - Created to gather inputs and from a list a random num the program has produced for each new input, the output of each number will differ, revealing the correct number at the end of each input.
+* Labs 13 - 
