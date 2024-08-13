@@ -12,7 +12,7 @@ def quadratic_formula(a, b, c):
     return (x1, x2)
 
 def print_number(number, prefix_str):
-    if float(int(number)) == number.real:
+    if float(int(number.real)) == number.real:
         print(f'{prefix_str}{number.real:.0f}')
     else:
         print(f'{prefix_str}{number.real:.2f}')
