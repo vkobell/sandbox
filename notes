@@ -19,3 +19,14 @@ Terms:
 
 Module Notes:
 1. A modules filename should always end with ".py"
+
+12.7
+CSV or Comma Seperated Values - Simple text based file format that use commas to seperate data items called fields
+Fields - The values in each row of the CSV file seperated by commas
+    Example:
+    Name, Age, City
+    Alice, 30, New York
+    Bob, 25, Dallas
+    Noye: In this example, "Name", "Age", and "City" are fields
+
+CSV Module: Can be used to help read and write files in the csv format (example: grades_reader = csv.reader())
