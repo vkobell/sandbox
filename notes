@@ -28,5 +28,29 @@ Fields - The values in each row of the CSV file seperated by commas
     Alice, 30, New York
     Bob, 25, Dallas
     Noye: In this example, "Name", "Age", and "City" are fields
+CSV Module: Can be used to help read and write files in the csv format (example: grades_reader = csv.reader()).
 
-CSV Module: Can be used to help read and write files in the csv format (example: grades_reader = csv.reader())
+
+13.1-13.3
+Base: A class that can serve as the basis for another class is called a base class. Derived classes inherit fom base classes.
+Inheritance Tree: Describes the heiarchy between base and derived classes
+Note: A derived class inherits the attriubutes of the base class and then adds additional attributes. 
+
+EX: 
+class baseClassName:
+    code
+
+class childClassName(baseClassName):
+    code that calls attributes from base class to use with new code here
+
+override = display() - 'The purpose of the display() method is to provide a way to easily print out the relevant information about an Item or Produce object. This can be useful for debugging, testing, or displaying the object's data in a human-readable format.'
+
+has-a and is-a 
+
+mother object is has-a string object and has child objects but no inheritance is involved
+has-a = composition
+is-a - inheritance
+
+A pear 'is a' kind of fruit. Pear does not 'have a' fruit, nor does fruit 'have a' pear.
+pear/fruit is-a
+house/door - has-a
