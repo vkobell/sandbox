@@ -43,8 +43,14 @@ class Instrument:
 
 
 class StringInstrument(Instrument):
-    print()#take out
-    # TODO: Define constructor with attributes: 
+    def __init__(self, name, manufacturer, year_built, cost, num_strings, num_frets):
+        self.name = name
+        self.manufacturer = manufacturer
+        self.year_built = year_built
+        self.cost = cost
+        self.num_strings = num_strings
+        self.num_frets = num_frets
+    # todo: Define constructor with attributes: 
     #       name, manufacturer, year_built, cost, num_strings, num_frets
       
 
