@@ -81,3 +81,25 @@ assertGreater(a, b)	a > b
 assertGreaterEqual(a, b)	a >= b
 assertLess(a, b)	a < b
 assertLessEqual(a, b)	a <= b
+
+CHAPTER 14: Recursion
+
+Recursive Function - A function that solves a problem by solving smaller instances of the same problem. Useful for demonstration recursion.
+Recursion: Recursion is the process a procedure goes through when one of the steps of the procedure involves invoking the procedure itself
+Example: Counting down is easily done instead of using a loop.
+
+int recursion(x)
+{
+    if  (x==0) --> base case
+    return;
+    recursion (x-1); ---> function being called by itself again
+}
+-----------------------------------------------------------
+def count_down(count):
+    if count == 0:            
+        print('Go!')                  
+    else:                        
+        print(count)             
+        count_down(count-1)        
+            
+count_down(2)
