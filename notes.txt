@@ -103,3 +103,25 @@ def count_down(count):
         count_down(count-1)        
             
 count_down(2)
+
+Creating a recursive function: Two steps
+1. Write a base case - Eveery recursive function must have a case that returns a value without performing a recursive call, this is called the base  case. 
+A programmer may write that part of the function first, and then test. There may be multiple base cases.
+
+2. Write recursive case -- The programmer then adds the recursive case to the function.
+
+def factorial(n):
+    # Base case
+    if n == 0 or n == 1:
+        return 1
+    else:
+        # Recursive case
+        return n * factorial(n - 1)
+
+# Example usage
+number = 5
+result = factorial(number)
+print(f"The factorial of {number} is {result}.")
+
+Base Case: The function checks if n is 0 or 1. If so, it returns 1. This prevents infinite recursion.
+Recursive Case: If the base case is not met, the function calls itself with n - 1, multiplying the result by n.
