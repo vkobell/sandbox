@@ -10,10 +10,15 @@
 #Note: Use recursion and DO NOT use any loops.
 
 # TODO: Write recursive fibonacci() function
-def fibonacci(n): #---> research sayuing f^n - f^n1 + f^n2
-    if loop
+def fibonacci(n): #---> research sayuing f^n - f^n1 + f^n2 ---> more research done on how to do fibonacci numbers in python
+    if n < 0:
+        return #---> return recursive
+    elif n == 0:
+        return 0
+    elif n == 1:
+        return 1
     else:
-        return fibonacci (argument minus one and two)
+        return b #---> replace with recursive function
 
 if __name__ == "__main__":
     start_num = int(input())
