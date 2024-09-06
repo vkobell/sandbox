@@ -12,13 +12,13 @@
 # TODO: Write recursive fibonacci() function
 def fibonacci(n): #---> research sayuing f^n - f^n1 + f^n2 ---> more research done on how to do fibonacci numbers in python
     if n < 0:
-        return #---> return recursive
+        return -1#---> return recursive ---> failed test case 8/10, fibonacci fixed to -1
     elif n == 0:
         return 0
     elif n == 1:
         return 1
     else:
-        return b #---> replace with recursive function
+        return fibonacci(n - 1) + fibonacci(n - 2) #---> replace with recursive function
 
 if __name__ == "__main__":
     start_num = int(input())
