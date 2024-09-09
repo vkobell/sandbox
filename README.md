@@ -17,4 +17,4 @@
 * Labs 15 -
 * Labs 16 -
 * Labs 17 -
-* Labs 18 - 
+* Labs 18 - Created to gather inputs and output the product of the Fibonacci sequence using recursion.
