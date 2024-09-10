@@ -12,9 +12,9 @@
 * Labs 10_noneoop - SL version created to gather a single input (steps) and output how many miles the steps would be. Is also supposed to catch the Value Error.
 * Labs 11 - Created to gather inputs and output the formatted artist's name, dob, dod, and artistic titles and its release dates with a few conditions. Note: This time it's using more advanced code.
 * Labs 12 - Created to gather inputs and from a list a random num the program has produced for each new input, the output of each number will differ, revealing the correct number at the end of each input.
-* Labs 13 - 
-* Labs 14 -
-* Labs 15 -
-* Labs 16 -
-* Labs 17 -
+* Labs 13 - Created to gather inputs and output the product of the Fibonacci sequence using recursion.
+* Labs 14 - Created to gather inputs and output the product of the Fibonacci sequence using recursion.
+* Labs 15 - Created to gather inputs and output the product of the Fibonacci sequence using recursion.
+* Labs 16 - Created to gather inputs and output the organized product of the code with base and derived classes.
+* Labs 17 - Created to gather inputs and output the organized product of the code with base and derived classes.
 * Labs 18 - Created to gather inputs and output the product of the Fibonacci sequence using recursion.
