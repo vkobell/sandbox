@@ -1,24 +1,25 @@
-14.8 LAB: All permutations of names
-Write a program that lists all ways people can line up for a photo (all permutations of a list of strings). The program will read a list of one word names, then use a recursive function to create and output all possible orderings of those names separated by a comma, one ordering per line.
+#LAB: Fibonacci sequence (recursion)
+#The Fibonacci sequence begins with 0 and then 1 follows. All subsequent values are the sum of the previous two, for example: 0, 1, 1, 2, 3, 5, 8, 13. 
+#Complete the fibonacci() function, which takes in an index, n, and returns the nth value in the sequence. Any negative index values should return -1.
 
-When the input is:
+#Ex: If the input is:
+#7
+#the output is:
 
-Julia Lucas Mia
-then the output is (must match the below ordering):
+#fibonacci(7) is 13
+#Note: Use recursion and DO NOT use any loops.
 
-Julia, Lucas, Mia 
-Julia, Mia, Lucas
-Lucas, Julia, Mia
-Lucas, Mia, Julia
-Mia, Julia, Lucas
-Mia, Lucas, Julia
-428214.2256588.qx3zqy7
+# TODO: Write recursive fibonacci() function
+def fibonacci(n): #---> research sayuing f^n - f^n1 + f^n2 ---> more research done on how to do fibonacci numbers in python
+    if n < 0:
+        return -1#---> return recursive ---> failed test case 8/10, fibonacci fixed to -1
+    elif n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2) #---> replace with recursive function
 
-
-def print_all_permutations(permList, nameList):
-    # TODO: Implement method to create and output all permutations of the list of names.
-
-if __name__ == "__main__": 
-    nameList = input().split(' ')
-    permList = []
-    print_all_permutations(permList, nameList)
+if __name__ == "__main__":
+    start_num = int(input())
+    print(f'fibonacci({start_num}) is {fibonacci(start_num)}')
