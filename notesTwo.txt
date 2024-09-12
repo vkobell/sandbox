@@ -63,3 +63,17 @@ Examples of variety:
 33. s - Square marker 
 
 Line property: Attribute of the line object created by matplotlib when plot() is called
+Line Properties:
+
+alpha - float - alpha compositing enables transpherancy 
+antiliased - Boolean - Enabled anti-aliasing of the line
+color - A matplotlib color - Color of the markers, line
+solid_capstyle - 'butt', 'round', or 'projecting' - How the cap of a line appears
+solid_joinstyle	- 'miter', 'round', or 'bevel' - How the join of a line appears
+data - [x_data, y_data] - The arrays of x and y coordinates
+label - string - The label to use for the line
+linestyle - '-', '--', '-.', ':', ... (see above) - The style of the line
+linewidth - float - The width of the line when drawn.
+marker - '+', ',', '.', '1', '2', ... (see above) - The style of the marker to use
+markersize - float - The size of the marker
+visible	- Boolean - Show/hide the line
