@@ -1,1 +1,65 @@
-15.1 Introduction to plotting and visualizing data
+15 Introduction to plotting and visualizing data (15-16)
+
+matplotlib - A packcage that can be used for plotting in python. It must be installed seperately since it is not installed by default when you install python.
+EXAMPLE" "import matplotlib.pyplot as plt"
+Example explained: The program first imports the pyplot module from the matplotlib package, renaming the matplotlib.pyplot to plt using the "as" keyword.
+
+"as": Renames an importent module or package 
+plt.show(): This fuhnction displays the graph
+plot.plot(): This function plots data onto the graph. plot() aceepts vaious argyments.
+EX:
+import matplotlib.pyplot as plt
+
+with open('ocean_temp.csv') as temp_file:
+    temps = []
+    for t in temp_file:
+        temps.append(float(t))
+
+temp_years = range(1850, 2012)
+plt.plot(temp_years, temps)
+
+pirate_years = range(1850, 2025, 25)
+num_pirates_thousands = [20, 17, 15, 5, 0.4, 0.05, 0.025]
+plt.plot(pirate_years, num_pirates_thousands)
+plt.show()
+
+Styling plots
+
+format string: An argument that specifies the color and style of the plotted line
+Example: plot(x_values, y_values, 'r--') uses 'r' to specify color red and '--' to specify a dash line
+Examples of variety:
+1. b - Blue
+2. g - Green 
+3. r - Red 
+4. w - White
+5. k - Black
+6. y - Yellow
+7. m - Magenta
+8. c - Cyan
+9. - - Solid line
+10. -- - Dashed line
+11. -. - Dashed-dot line
+12. : - Dotted line
+13. . - Point Marker
+14. , - Pixel Marker 
+15. o - Circle Marker
+16. + - Plus Marker
+17. X - X Marker
+18. v - Triangle-down Marker
+19. ^ - Triangle-up Marker
+20. < - Triangle-left Marker
+21. > - Triangle-right Marker 
+22. * - Star Marker
+23. 1 - Tri-down marker 
+24. 2 - Tri-up marker
+25. 3 - Tri-left marker
+26. 4 - Tri-right marker
+27. h - Hexagon1 marker
+28. H - Hexagon2 marker
+29. D - Diamond marker
+30. d - Thin diamond marker
+31. | - Vertical line marker
+32. - - Horizontal line marker
+33. s - Square marker 
+
+Line property: Attribute of the line object created by matplotlib when plot() is called
