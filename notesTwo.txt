@@ -77,3 +77,11 @@ linewidth - float - The width of the line when drawn.
 marker - '+', ',', '.', '1', '2', ... (see above) - The style of the marker to use
 markersize - float - The size of the marker
 visible	- Boolean - Show/hide the line
+
+plt.axis(): function is used to set the range of the x and y axes.
+A single list argument specifies the minimum and maximum values of each axis: [min_x, max_x, min_y, max_y]. Above, the axes of the signal frequency plot are set to show only the interesting region of the plot.
+The twinx() function creates a second axis on a plot.
+
+16.1 Searching and algorithms
+Algorithm - Sequence of steps for accomplishing a task
+Linear Search - Search algorithm that starts from the beginning of a list and checks each element until the search key is found or the end of the list is reached
