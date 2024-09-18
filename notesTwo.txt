@@ -82,6 +82,40 @@ plt.axis(): function is used to set the range of the x and y axes.
 A single list argument specifies the minimum and maximum values of each axis: [min_x, max_x, min_y, max_y]. Above, the axes of the signal frequency plot are set to show only the interesting region of the plot.
 The twinx() function creates a second axis on a plot.
 
-16.1 Searching and algorithms
+16 Searching and algorithms
+
 Algorithm - Sequence of steps for accomplishing a task
 Linear Search - Search algorithm that starts from the beginning of a list and checks each element until the search key is found or the end of the list is reached
+Algorithm runtime - The time the algorithm takes to 
+Binary search - Linear search may require searching all list elements which can lead to long runtimes. Binary checks middle first, then first half, then last half.
+Binary search - Faster algorithm for searching a list if the list's elements are sorted and directly accessible
+
+Big 0 notation: Mathematical way of describing how a function (running time of an algorithm) generally behaves in a relation to the input size.
+O(N) - O(N+9999)
+O(N) - O(734-N)
+O(N^3) - O(12-N+6*N^3 + 1000)
+
+Rules for determing Big O notation of composite functions 
+
+Composite function                      Big O notation
+c * O(f(x))                             O(f(x))
+c + O(f(x))                             O(f(x)) 
+g(x) * O(f(x))                          O(g(x) * O(f(x)))
+g(x) + O(f(x))                          O(g(x) + O(f(x)))
+
+
+Function	N = 10	         N = 50	        N = 100	    N = 1000	N = 10000	N = 100000
+logv2N      3.3 μs	         5.65 μs	    6.6 μs	    9.9 μs	    13.3 μs	    16.6 μs
+N           10 μs	         50 μs	        100 μs	    1000 μs	    10 ms	    0.1 s
+Nlogv2N     .03 ms	         .28 ms	        .66 ms	    .099 s	    .132 s	    1.66 s
+N^2         .1 ms	         2.5 ms	        10 ms	    1 s	        100 s	    2.7 hours
+N^3          1 ms	         .125 s	        1 s	        16.7 min	11.57 days	31.7 years
+2^N          .001 s	         35.7 years	    *	        *	        *	        *
+
+
+Worst Case Algorithm Analysis:
+
+
+Sorting: Sorting is the process of converting a list of elements into ascending (or descending) order.
+Selection Sorting: Selection sort is a sorting algorithm that treats the input as two parts, a sorted part and an unsorted part, and repeatedly selects the proper next value to move from the unsorted part to the end of the sorted part.
+Insertion sort: A sorting algorithm that treats the input as two parts, a sorted part and an unsorted part, and repeatedly inserts the next value from the unsorted part into the correct location in the sorted part.
