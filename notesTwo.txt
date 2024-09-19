@@ -115,7 +115,11 @@ N^3          1 ms	         .125 s	        1 s	        16.7 min	11.57 days	31.7 y
 
 Worst Case Algorithm Analysis:
 
-
 Sorting: Sorting is the process of converting a list of elements into ascending (or descending) order.
 Selection Sorting: Selection sort is a sorting algorithm that treats the input as two parts, a sorted part and an unsorted part, and repeatedly selects the proper next value to move from the unsorted part to the end of the sorted part.
 Insertion sort: A sorting algorithm that treats the input as two parts, a sorted part and an unsorted part, and repeatedly inserts the next value from the unsorted part into the correct location in the sorted part.
+
+Quicksore: A sorting algorithm that repeatedly partitions the input into low and high parts (unsorted) and recursively sorts those parts.
+Patitions: It breaks down a large endeavor such as an enterprise level system development that might span multiple features and teams
+Pivot: Can be any value within the sorted array 
+Merge sort: A sorting algorithm that divides a list into two halves, recursively sorts each half, and then merges the sorted halves to produce a sorted list. 
